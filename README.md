@@ -1,2 +1,2 @@
-# youthhack
-Website for YouthHack
+# YouthHack
+Website for YouthHack, currently under development.
