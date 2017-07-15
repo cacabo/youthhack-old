@@ -1,23 +1,60 @@
 /* Fonts and colors */
+
 .special {
   font-family: 'Palanquin Dark', 'Roboto', sans-serif;
 }
 
-.cyan-text-hover:hover,
-a.cyan-text-hover:hover,
-a.white-text.cyan-text-hover:hover,
-.navbar-brand.cyan-text-hover:hover {
+.tight {
+  line-height: 1;
+}
+
+.cyan-text-hover:hover, a.cyan-text-hover:hover, a.white-text.cyan-text-hover:hover, .navbar-brand.cyan-text-hover:hover {
   color: cyan;
 }
 
-.cyan-text-hover:hover span.yellow-text-hover,
-a.cyan-text-hover:hover span.yellow-text-hover,
-a.white-text.cyan-text-hover:hover span.yellow-text-hover {
+.cyan-text-hover:hover span.yellow-text-hover, a.cyan-text-hover:hover span.yellow-text-hover, a.white-text.cyan-text-hover:hover span.yellow-text-hover {
   color: #ffe100;
 }
 
-.yellow-text-hover:hover,
-a.yellow-text-hover:hover,
-a.white-text.yellow-text-hover:hover {
+.yellow-text-hover:hover, a.yellow-text-hover:hover, a.white-text.yellow-text-hover:hover {
   color: #ffe100;
+}
+
+
+/* images */
+
+#philly {
+  background-image: url('../img/philly.jpg');
+}
+
+.hero-min-height {
+  min-height: 80vh;
+}
+
+.gradient {
+  animation-duration: 3s;
+  animation-name: changeGradient;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes changeGradient {
+  from {
+    background: rgba(0, 255, 255, 0.1);
+  }
+
+  to {
+    background: rgba(0, 200, 255, 0.3);
+  }
+}
+
+.overlay {
+  background-image: url('../img/overlay.png');
+  background-position: fixed;
+}
+
+@media screen and (max-device-width: 1024px) {
+  .overlay {
+    background-position: scroll;
+  }
 }

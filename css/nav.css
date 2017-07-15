@@ -8,6 +8,14 @@ button.navbar-toggler {
   overflow: hidden;
 }
 
+li.nav-item.active a.nav-link:hover {
+  color: #ffe100 !important;
+}
+
+li.nav-item a.nav-link:hover {
+  color: cyan !important;
+}
+
 /* formatting for icon bars */
 
 .navbar-toggler .icon-bar {
