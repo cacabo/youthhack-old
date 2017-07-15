@@ -1,6 +1,6 @@
 ul.icons {
   list-style: none;
-  padding: 0 1rem;
+  padding: 0 2rem;
   margin: 0 0 1rem 0;
   display: flex;
   flex-direction: row-reverse;
@@ -11,6 +11,10 @@ ul.icons {
 
 ul.icons li {
   margin-left: 1rem;
+}
+
+ul.icons li a:hover {
+  color: cyan;
 }
 
 @media screen and (max-device-width: 1024px) {
@@ -37,4 +41,10 @@ ul.icons li {
   ul.icons li {
     margin: 0 1rem 0 0;
   }
+}
+
+ul.footer-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }

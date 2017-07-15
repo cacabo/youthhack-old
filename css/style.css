@@ -1,4 +1,16 @@
-/* Fonts */
+/* Fonts and colors */
 .special {
   font-family: 'Palanquin Dark', 'Roboto', sans-serif;
+}
+
+.cyan-text-hover:hover {
+  color: cyan;
+}
+
+.cyan-text-hover:hover .yellow-text-hover {
+  color: #ffe100;
+}
+
+.yellow-text-hover:hover {
+  color: #ffe100;
 }
