@@ -3,14 +3,21 @@
   font-family: 'Palanquin Dark', 'Roboto', sans-serif;
 }
 
-.cyan-text-hover:hover {
+.cyan-text-hover:hover,
+a.cyan-text-hover:hover,
+a.white-text.cyan-text-hover:hover,
+.navbar-brand.cyan-text-hover:hover {
   color: cyan;
 }
 
-.cyan-text-hover:hover .yellow-text-hover {
+.cyan-text-hover:hover span.yellow-text-hover,
+a.cyan-text-hover:hover span.yellow-text-hover,
+a.white-text.cyan-text-hover:hover span.yellow-text-hover {
   color: #ffe100;
 }
 
-.yellow-text-hover:hover {
+.yellow-text-hover:hover,
+a.yellow-text-hover:hover,
+a.white-text.yellow-text-hover:hover {
   color: #ffe100;
 }
