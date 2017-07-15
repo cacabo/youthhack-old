@@ -28,7 +28,7 @@
 }
 
 .hero-min-height {
-  min-height: 80vh;
+  min-height: 70vh;
 }
 
 .gradient {
@@ -57,4 +57,26 @@
   .overlay {
     background-position: scroll;
   }
+}
+
+/* absolute positioning */
+
+.half-up {
+  transform: translateY(-50%);
+}
+
+.circle {
+  border-radius: 50%;
+  display: table;
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+.circle .fa {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.center {
+  text-align: center;
 }
