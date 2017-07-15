@@ -4,10 +4,17 @@
 <head>
   <meta charset="utf-8">
   <title>YouthHack</title>
+
+  <!-- stylesheets -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-  <link rel="stylesheet" href="/css/nav.css">
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="/css/footer.css">
+  <link rel="stylesheet" href="./css/strapper.min.css">
+  <link rel="stylesheet" href="./css/nav.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/footer.css">
+
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Palanquin+Dark" rel="stylesheet">
+  <script src="https://use.fontawesome.com/297cffcc6b.js"></script>
 
   <!-- meta tags -->
   <meta charset="UTF-8">
@@ -25,13 +32,64 @@
 </head>
 
 <body>
+  <!-- navbar -->
+  <nav class="navbar navbar-toggleable-md navbar-inverse black">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <a class="navbar-brand special" href="./">YouthHack</a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./ventures.html">Ventures</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./academy.html">Academy</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./blog">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./getinvolved">Get involved</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- body -->
   <div class="container">
     <div class="row">
-      <div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3">
+      <div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3 pad-2-1">
         <h1>Website is up and running</h1>
       </div>
     </div>
   </div>
+
+  <!-- footer -->
+  <footer class="block black white-text pad-2-1">
+    <div class="container">
+      <ul class="horizontal right full-width absolute">
+        <li>Email</li>
+        <li>Facebook</li>
+        <li>Twitter</li>
+        <li>Medium</li>
+      </ul>
+    </div>
+    <h1 class="marg-bot-1 special">YouthHack</h1>
+    <p>
+      YouthHack &copy; 2017. All rights reserved.<br>
+      Website by <a href="http://cameroncabo.com" class="white-text bold no-decoration">Cameron Cabo</a>.
+    </p>
+  </footer>
+
+  <!-- javascript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
