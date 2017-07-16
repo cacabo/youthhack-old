@@ -77,3 +77,15 @@ li.nav-item a.nav-link:hover {
 .navbar-toggler.collapsed .bottom-bar {
   transform: rotate(0);
 }
+
+#one {
+  background-image: url('../img/1.jpg');
+}
+
+#two {
+  background-image: url('../img/2.jpg');
+}
+
+#three {
+  background-image: url('../img/3.jpg');
+}
