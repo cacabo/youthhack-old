@@ -82,16 +82,45 @@
 }
 
 #stats {
-  display: flex;
+  /*display: flex;
   align-content: space-between;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: flex-start;*/
   padding-top: 3rem;
   padding-bottom: 3rem;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
+  text-align: center;
 }
 
 .stat {
   display: inline-block;
   text-align: center;
+  margin: 1rem;
+}
+
+.article {
+  background: white;
+  border-top: 0.5rem solid black;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+a .article:hover h4 {
+  color: cyan;
+}
+
+a .article:hover {
+  border-top: 0.5rem solid cyan;
+}
+
+.article .article-image {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.article img {
+  display: inline-block;
+  height: 6rem;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
