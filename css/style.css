@@ -80,3 +80,18 @@
 .center {
   text-align: center;
 }
+
+#stats {
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.stat {
+  display: inline-block;
+  text-align: center;
+}
