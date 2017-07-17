@@ -148,3 +148,28 @@ a .article:hover {
   height: 100%;
   width: 100%;
 }
+
+/*
+** Partners
+*/
+
+.partners {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.partner {
+  height: 4rem;
+  width: auto;
+  margin: 1rem;
+}
+
+.partner a {
+  height: 4rem;
+}
+
+.partner a img {
+  height: 4rem;
+}
