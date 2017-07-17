@@ -138,3 +138,13 @@ a .article:hover {
   height: 70vh;
   overflow: hidden;
 }
+
+.gradient-carousel {
+  height: 100%;
+  width: 100%;
+}
+
+.gradient-carousel .overlay {
+  height: 100%;
+  width: 100%;
+}
