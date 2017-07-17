@@ -161,15 +161,14 @@ a .article:hover {
 }
 
 .partner {
-  height: 4rem;
-  width: auto;
   margin: 1rem;
 }
 
-.partner a {
-  height: 4rem;
+.partner a img {
+  height: 3rem;
+  filter: grayscale(100%);
 }
 
-.partner a img {
-  height: 4rem;
+.partner a img.darken {
+  filter: grayscale(100%) brightness(0);
 }
