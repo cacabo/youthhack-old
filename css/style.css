@@ -19,6 +19,14 @@
 .progress {
   border-radius: 0px;
   height: 0.5rem;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  background: cyan;
+}
+
+.progress-bar {
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .cyan-text-hover:hover, a.cyan-text-hover:hover, a.white-text.cyan-text-hover:hover, .navbar-brand.cyan-text-hover:hover {
