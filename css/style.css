@@ -8,6 +8,19 @@
   line-height: 1;
 }
 
+.cyan {
+  background: cyan;
+}
+
+.yellow {
+  background: #ffe100;
+}
+
+.progress {
+  border-radius: 0px;
+  height: 0.5rem;
+}
+
 .cyan-text-hover:hover, a.cyan-text-hover:hover, a.white-text.cyan-text-hover:hover, .navbar-brand.cyan-text-hover:hover {
   color: cyan;
 }
@@ -18,6 +31,14 @@
 
 .yellow-text-hover:hover, a.yellow-text-hover:hover, a.white-text.yellow-text-hover:hover {
   color: #ffe100;
+}
+
+.black-text {
+  color: black;
+}
+
+.white-text {
+  color: white;
 }
 
 
@@ -167,6 +188,13 @@ a .article:hover {
 .partner a img {
   height: 3rem;
   filter: grayscale(100%);
+  opacity: 0.75;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.partner a img:hover {
+  opacity: 1;
 }
 
 .partner a img.darken {
