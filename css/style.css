@@ -27,6 +27,14 @@
   transition: all 0.5s ease;
 }
 
+.cyan-text {
+  color: cyan;
+}
+
+.yellow-text {
+  color: #ffe100;
+}
+
 .cyan-text-hover:hover, a.cyan-text-hover:hover, a.white-text.cyan-text-hover:hover, .navbar-brand.cyan-text-hover:hover {
   color: cyan;
 }
@@ -228,8 +236,14 @@ a .article:hover {
   height: 2.5rem;
 }
 
-.partner a img.tall{
+.partner a img.tall {
   transform: scale(1.25);
+  margin: 0 0.25rem;
+}
+
+.partner a img.taller {
+  transform: scale(1.75);
+  margin: 0 0.5rem;
 }
 
 .partner a img:hover {
