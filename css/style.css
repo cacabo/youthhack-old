@@ -18,15 +18,13 @@
 
 .progress {
   border-radius: 0px;
-  height: 0.5rem;
-  -webkit-transition: all 0.2s ease;
-  transition: all 0.2s ease;
+  height: 0.25rem;
   background: cyan;
 }
 
 .progress-bar {
-  -webkit-transition: all 0.2s ease;
-  transition: all 0.2s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .cyan-text-hover:hover, a.cyan-text-hover:hover, a.white-text.cyan-text-hover:hover, .navbar-brand.cyan-text-hover:hover {
@@ -182,11 +180,36 @@ a .article:hover {
 ** Partners
 */
 
+.partners-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
 .partners {
   display: flex;
   justify-content: center;
-  align-items: stretch;
+  align-items: center;
   flex-wrap: wrap;
+}
+
+@media screen and (max-device-width: 1024px) {
+  .partners-wrapper {
+    overflow-x: scroll;
+  }
+  .partners {
+    justify-content: flex-start;
+    width: 160vw;
+  }
+}
+
+@media screen and (max-width: 684px) {
+  .partners-wrapper {
+    overflow-x: scroll;
+  }
+  .partners {
+    justify-content: flex-start;
+    width: 160vw;
+  }
 }
 
 .partner {
@@ -199,6 +222,14 @@ a .article:hover {
   opacity: 0.75;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
+}
+
+.partner a img.short{
+  height: 2.5rem;
+}
+
+.partner a img.tall{
+  transform: scale(1.25);
 }
 
 .partner a img:hover {
