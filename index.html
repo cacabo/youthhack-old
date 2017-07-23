@@ -567,59 +567,63 @@
   <!-- closing partners wrapper -->
   <div class="space-2"></div>
 
-  <div class="light-gray">
-    <div class="container">
-      <div class="space-2"></div>
-      <div class="row">
-        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
-          <div class="white pad-2">
-            <h2 class="special marg-bot-2">Contact us</h2>
-            <form id="contactForm" action="https://formspree.io/hello@youthhack.net" method="post">
-              <div class="row">
-                <div class="col-6">
-                  <input type="text" name="Name" class="form-control" id="inputName" required>
-                  <label for="inputName">Name*</label>
-                </div>
+  <div class="gradient-2">
+    <div class="overlay">
+      <div class="container">
+        <div class="space-2"></div>
+        <div class="row">
+          <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+            <div class="white pad-2">
+              <h2 class="special marg-bot-2">Contact us</h2>
+              <div id="errors"></div>
+              <form id="contactForm" action="https://formspree.io/hello@youthhack.net" method="post">
+                <div class="row">
+                  <div class="col-6">
+                    <input type="text" name="Name" class="form-control" id="inputName" required>
+                    <label for="inputName">Name*</label>
+                  </div>
 
-                <div class="col-6">
-                  <input type="email" name="_replyto" class="form-control" id="inputEmail" required>
-                  <label for="inputEmail">Email*</label>
+                  <div class="col-6">
+                    <input type="email" name="_replyto" class="form-control" id="inputEmail" required>
+                    <label for="inputEmail">Email*</label>
+                  </div>
                 </div>
-              </div>
-              <!-- closing row -->
+                <!-- closing row -->
 
-              <div class="row">
-                <div class="col-6">
-                  <input type="text" name="Organization" class="form-control" id="inputOrganization">
-                  <label for="inputPhone">Organization</label>
+                <div class="row">
+                  <div class="col-6">
+                    <input type="text" name="Organization" class="form-control" id="inputOrganization">
+                    <label for="inputOrganization">Organization</label>
+                  </div>
+                  <div class="col-6">
+                    <input type="text" name="Location" class="form-control" id="inputLocation">
+                    <label for="inputLocation">Location</label>
+                  </div>
                 </div>
-                <div class="col-6">
-                  <input type="text" name="Location" class="form-control" id="inputLocation">
-                  <label for="inputLocation">Location</label>
-                </div>
-              </div>
-              <!-- closing row -->
+                <!-- closing row -->
 
-              <input type="text" name="_subject" class="form-control" id="inputSubject" required>
-              <label for="inputSubject">Subject*</label>
-              <div class="empty-space"></div>
-              <label id="messageLabel" for="inputMessage">Message*</label>
-              <textarea rows="1" type="message" name="Message" class="form-control" id="inputMessage" id="ta" required></textarea>
+                <input type="text" name="_subject" class="form-control" id="inputSubject" required>
+                <label for="inputSubject">Subject*</label>
+                <div class="empty-space"></div>
+                <label id="messageLabel" for="inputMessage">Message*</label>
+                <textarea rows="1" type="message" name="Message" class="form-control" id="inputMessage" id="ta" required></textarea>
 
-              <input type="text" name="_gotcha" style="display:none">
-              <div class="space-2"></div>
-              <button type="submit" id="submit" value="Send" class="btn special">Submit</button>
-            </form>
-            <!-- close form -->
+                <input type="text" name="_gotcha" style="display:none">
+                <div class="space-2"></div>
+                <button type="submit" id="submit" value="Send" class="btn special">Submit</button>
+              </form>
+              <!-- close form -->
+            </div>
+            <!-- close white -->
           </div>
-          <!-- close white -->
+          <!-- close col -->
         </div>
-        <!-- close col -->
+        <!-- close row -->
       </div>
-      <!-- close row -->
+      <!-- close container -->
+      <div class="space-2"></div>
     </div>
-    <!-- close container -->
-    <div class="space-2"></div>
+    <!-- close overlay -->
   </div>
   <!-- close light gray -->
 

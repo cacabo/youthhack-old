@@ -1,6 +1,7 @@
 input, textarea, .form-control {
   color: black;
   background: transparent;
+  z-index: 2 !important;
 }
 
 input.form-control, textarea.form-control {

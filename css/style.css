@@ -73,6 +73,15 @@
   animation-direction: alternate;
 }
 
+.gradient-2 {
+  background: cyan;
+  background: #ffe100;
+  background: -webkit-linear-gradient(left top, cyan 60%, #ffe100 40%);
+  background: -o-linear-gradient(bottom right, cyan 60%, #ffe100 40%);
+  background: -moz-linear-gradient(bottom right, cyan 60%, #ffe100 40%);
+  background: linear-gradient(to bottom right, cyan 60%, #ffe100 40%);
+}
+
 @keyframes changeGradient {
   from {
     background: rgba(0, 255, 255, 0.1);
@@ -217,6 +226,12 @@ a .article:hover {
   .partners {
     justify-content: flex-start;
     width: 160vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .partners {
+    width: 200vw;
   }
 }
 
