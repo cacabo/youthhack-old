@@ -1,0 +1,65 @@
+input, textarea, .form-control {
+  color: black;
+  background: transparent;
+}
+
+input.form-control, textarea.form-control {
+  border-radius: 0;
+  border: 0px solid transparent;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+input.form-control:focus, textarea.form-control:focus {
+  border-bottom: 1px solid black;
+}
+
+label {
+  cursor: text;
+  font-family: 'Palanquin Dark', 'Roboto', sans-serif;
+  transform: translateY(-30px);
+  z-index: 0;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+  display: inline-block;
+  color: #777;
+  padding-left: 0.5rem;
+}
+
+label.hasVal {
+  transform: scale(0.9) translateY(-68px);
+  padding-left: 0rem;
+  color: black;
+}
+
+label#messageLabel {
+  position: absolute;
+  transform: translateY(6px);
+  z-index: 0;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+  display: inline-block;
+  color: #777;
+  padding-left: 0.5rem;
+}
+
+label#messageLabel.hasVal {
+  transform: scale(0.9) translateY(-32px);
+  padding-left: 0rem;
+  color: black;
+}
+
+#submit {
+  background: transparent;
+  border: 2px solid black;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+#submit:hover {
+  background: black;
+  color: white;
+}
+
+#inputMessage {
+  overflow: hidden;
+}
