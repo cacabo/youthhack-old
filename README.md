@@ -17,4 +17,8 @@ Website for YouthHack, currently under development.
 - [ ] Ventures page
 - [ ] Academy page
 - [ ] StartupChallenge page
-- [ ] Get involved page
+- [ ] Get Involved page
+- [ ] Meta tag image content
+- [ ] Twitter meta tags?
+- [ ] Tooltips on partners hover?
+- [ ] Favicon
