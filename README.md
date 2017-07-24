@@ -9,4 +9,12 @@ Website for YouthHack, currently under development.
 ### Todo
 - [ ] Numbers increase upon scrolling over them
 - [ ] More interactive scrolling
-- [ ] Complete adding partners
+- [ ] More animations / use of color throughout
+- [x] Complete adding partners
+- [ ] Decide on colors
+- [x] Add logo to navbar
+- [ ] About page
+- [ ] Ventures page
+- [ ] Academy page
+- [ ] StartupChallenge page
+- [ ] Get involved page
