@@ -98,12 +98,12 @@
 
 .overlay {
   background-image: url('../img/overlay.png');
-  background-position: fixed;
+  background-attachment: fixed;
 }
 
 @media screen and (max-device-width: 1024px) {
   .overlay {
-    background-position: scroll;
+    background-attachment: scroll;
   }
 }
 
