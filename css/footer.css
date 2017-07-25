@@ -49,3 +49,22 @@ ul.footer-nav {
   margin: 0;
   padding: 0;
 }
+
+footer img {
+  width: 30px;
+  height: 30px;
+  margin-right: 0px;
+  filter: brightness(0) invert(1);
+}
+
+footer:hover img {
+  filter: grayscale(0) brightness(100%);
+}
+
+footer:hover h1.cyan-text-hover {
+  color: #00d0ff;
+}
+
+footer:hover h1 span.yellow-text-hover {
+  color: #fcd702;
+}

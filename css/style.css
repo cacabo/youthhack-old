@@ -33,7 +33,7 @@ h1.bigger {
 }
 
 .cyan {
-  background: #00ddff;
+  background: #00d0ff;
 }
 
 .yellow {
@@ -43,7 +43,7 @@ h1.bigger {
 .progress {
   border-radius: 0px;
   height: 0.25rem;
-  background: #00ddff;
+  background: #00d0ff;
 }
 
 .progress.thick {
@@ -56,7 +56,7 @@ h1.bigger {
 }
 
 .cyan-text {
-  color: #00ddff;
+  color: #00d0ff;
 }
 
 .yellow-text {
@@ -64,7 +64,7 @@ h1.bigger {
 }
 
 .cyan-text-hover:hover, a.cyan-text-hover:hover, a.white-text.cyan-text-hover:hover, .navbar-brand.cyan-text-hover:hover {
-  color: #00ddff;
+  color: #00d0ff;
 }
 
 .cyan-text-hover:hover span.yellow-text-hover, a.cyan-text-hover:hover span.yellow-text-hover, a.white-text.cyan-text-hover:hover span.yellow-text-hover {
@@ -102,12 +102,12 @@ h1.bigger {
 }
 
 .gradient-2 {
-  background: #00ddff;
+  background: #00d0ff;
   background: #fcd702;
-  background: -webkit-linear-gradient(left top, #00ddff 60%, #fcd702 40%);
-  background: -o-linear-gradient(bottom right, #00ddff 60%, #fcd702 40%);
-  background: -moz-linear-gradient(bottom right, #00ddff 60%, #fcd702 40%);
-  background: linear-gradient(to bottom right, #00ddff 60%, #fcd702 40%);
+  background: -webkit-linear-gradient(left top, #00d0ff 60%, #fcd702 40%);
+  background: -o-linear-gradient(bottom right, #00d0ff 60%, #fcd702 40%);
+  background: -moz-linear-gradient(bottom right, #00d0ff 60%, #fcd702 40%);
+  background: linear-gradient(to bottom right, #00d0ff 60%, #fcd702 40%);
 }
 
 @keyframes changeGradient {
@@ -179,11 +179,11 @@ h1.bigger {
 }
 
 a .article:hover h4 {
-  color: #00ddff;
+  color: #00d0ff;
 }
 
 a .article:hover {
-  border-top: 0.5rem solid #00ddff;
+  border-top: 0.5rem solid #00d0ff;
 }
 
 .article .article-image {
