@@ -203,6 +203,7 @@ a .article:hover {
 /* Carousel */
 
 .carousel {
+  background: black;
   height: 70vh;
   width: 100%;
   overflow: hidden;

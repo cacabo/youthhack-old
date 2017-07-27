@@ -5,9 +5,8 @@ ul.icons {
   display: flex;
   flex-direction: row-reverse;
   position: absolute;
-  left: 0;
-  width: 100%;
-  z-index: 5;
+  right: 0;
+  z-index: 1;
 }
 
 ul.icons li {
@@ -24,6 +23,7 @@ ul.icons li a:hover {
     padding: 0;
     flex-direction: row-reverse;
     justify-content: flex-end;
+    width: 100%;
   }
 
   ul.icons li {
@@ -48,6 +48,11 @@ ul.footer-nav {
   list-style: none;
   margin: 0;
   padding: 0;
+  z-index: 6 !important;
+}
+
+ul.footer-nav li {
+  z-index: 6 !important;
 }
 
 footer img {
@@ -59,6 +64,10 @@ footer img {
 
 footer:hover img {
   filter: grayscale(0) brightness(100%);
+}
+
+footer h1 {
+  z-index: -1 !important;
 }
 
 footer:hover h1.cyan-text-hover {
