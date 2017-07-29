@@ -1,5 +1,10 @@
 /* Fonts and colors */
 
+.cyan-underline {
+  text-decoration: underline;
+  color: #00d0ff;
+}
+
 .gray-diag {
   background: rgba(0, 0, 0, 0.075);
   background: -webkit-linear-gradient(-70deg, rgba(0, 0, 0, 0.08) 50%, rgba(0, 0, 0, 0.04) 50%);
@@ -160,7 +165,7 @@ h1.bigger {
   color: white;
   font-weight: bold;
   text-decoration: none;
-  padding: 0.75rem 1rem;
+  padding: 0.75rem 1.25rem;
 }
 
 .circle:hover {
