@@ -7,11 +7,7 @@ input, textarea, .form-control {
 input.form-control, textarea.form-control {
   border-radius: 0;
   border: 0px solid transparent;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-}
-
-input.form-control:focus, textarea.form-control:focus {
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
 }
 
 label {
@@ -24,6 +20,14 @@ label {
   display: inline-block;
   color: #777;
   padding-left: 0.5rem;
+}
+
+label.active {
+  color: #00d0ff !important;
+}
+
+.form-control.active {
+  border-color: #00d0ff !important;
 }
 
 label.hasVal {
