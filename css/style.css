@@ -161,6 +161,15 @@ h1.bigger {
   background: #3490df;
 }
 
+.action-bubble .fa {
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.action-bubble:hover .fa {
+  transform: translateX(0.25rem);
+}
+
 .action-bubble a {
   color: white;
   font-weight: bold;
@@ -263,11 +272,21 @@ a .article:hover {
 }
 
 .carousel-caption h3 {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 .carousel-caption p {
   font-size: 1.5rem;
+}
+
+@media screen and (max-width: 720px) {
+  .carousel-caption h3 {
+    font-size: 2.5rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1.25rem;
+  }
 }
 
 
