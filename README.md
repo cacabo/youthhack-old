@@ -8,10 +8,11 @@ Website for YouthHack, currently under development.
 
 ### Todo
 - [ ] Numbers increase upon scrolling over them
-- [ ] More interactive scrolling
+- [ ] Better navbar styling
+- [ ] More JS animations
 - [ ] More animations / use of color throughout
 - [x] Complete adding partners
-- [ ] Decide on colors
+- [x] Decide on colors
 - [x] Add logo to navbar
 - [ ] About page
 - [ ] Ventures page
@@ -22,3 +23,7 @@ Website for YouthHack, currently under development.
 - [ ] Twitter meta tags?
 - [ ] Tooltips on partners hover?
 - [ ] Favicon
+- [ ] Logos
+  - [ ] Startup challenge
+  - [ ] Accelerator
+  - [ ] Startup school
