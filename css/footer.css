@@ -14,7 +14,7 @@ ul.icons li {
 }
 
 ul.icons li a:hover {
-  color: cyan;
+  color: #00d0ff;
 }
 
 @media screen and (max-device-width: 1024px) {

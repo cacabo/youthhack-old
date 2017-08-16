@@ -8,6 +8,7 @@ Website for YouthHack, currently under development.
 
 ### Todo
 - [ ] Numbers increase upon scrolling over them
+- [ ] Auto-scrolling partners
 - [ ] Better navbar styling
 - [ ] More JS animations
 - [ ] More animations / use of color throughout

@@ -2,11 +2,6 @@
   width: 30px;
   height: 30px;
   margin-right: 6px;
-  filter: grayscale(100%) brightness(0);
-}
-
-.navbar-brand:hover img {
-  filter: grayscale(0) brightness(100%);
 }
 
 button.navbar-toggler {

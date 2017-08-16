@@ -1,5 +1,9 @@
 /* Fonts and colors */
 
+p.smaller {
+  font-size: 0.8rem;
+}
+
 .cyan-underline {
   text-decoration: underline;
   color: #00d0ff;
@@ -60,7 +64,9 @@ h1.bigger {
   transition: all 0.5s ease;
 }
 
-.cyan-text {
+.cyan-text,
+a.cyan-text,
+.cyan-text:hover {
   color: #00d0ff;
 }
 
@@ -287,6 +293,16 @@ a .article:hover {
   .carousel-caption p {
     font-size: 1.25rem;
   }
+}
+
+/*
+** Branches
+*/
+
+.branch-img {
+  margin-bottom: 1rem;
+  margin-right: 35%;
+  margin-left: 35%;
 }
 
 
