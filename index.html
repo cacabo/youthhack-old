@@ -35,7 +35,7 @@
 
 <body>
   <!-- Progress bar -->
-  <div class="progress">
+  <div class="progress" id="top">
     <div class="progress-bar" id="fluid-1" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
     <div class="progress-bar cyan" id="fluid-2" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
     <div class="progress-bar yellow" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
@@ -46,7 +46,8 @@
   </div>
 
   <!-- navbar -->
-  <nav class="navbar navbar-toggleable-md">
+  <div class="nav-spacer"></div>
+  <nav class="navbar navbar-toggleable-md top fixed-top">
     <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="icon-bar top-bar"></span>
       <span class="icon-bar middle-bar"></span>
@@ -60,7 +61,7 @@
 
     <div class="collapse navbar-collapse special" id="navbarNav">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="./index.html">Home</a>
         </li>
         <li class="nav-item">
@@ -676,6 +677,14 @@
   </div>
   <!-- close light gray -->
 
+  <div class="center full-width absolute half-up">
+    <a data-scroll href="#top" class="no-decoration inline">
+      <div class="circle white shade-3 hover">
+        <i class="fa fa-arrow-up black-text fa-2x"></i>
+      </div>
+    </a>
+  </div>
+
   <!-- footer -->
   <footer class="block black white-text pad-2">
     <div class="space-1"></div>
@@ -758,6 +767,7 @@
   <script src="js/label.js"></script>
   <script src="https://cdn.jsdelivr.net/jquery.autosize/3.0.20/autosize.min.js"></script>
   <script src="js/autosizeInit.js"></script>
+  <script src="js/scroll.js"></script>
 </body>
 
 </html>

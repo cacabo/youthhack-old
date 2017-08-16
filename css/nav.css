@@ -1,6 +1,11 @@
+.navbar-brand {
+  font-size: 2rem;
+  padding: 0rem;
+}
+
 .navbar-brand img {
-  width: 30px;
-  height: 30px;
+  width: 45px;
+  height: 45px;
   margin-right: 6px;
 }
 
@@ -30,9 +35,9 @@ li.nav-item a.nav-link:hover {
 
 .navbar-toggler .icon-bar {
   display: block;
-  width: 22px;
-  height: 2px;
-  border-radius: 1px;
+  width: 33px;
+  height: 3px;
+  border-radius: 1.5px;
 }
 
 .icon-bar.middle-bar {
@@ -40,12 +45,12 @@ li.nav-item a.nav-link:hover {
 }
 
 .navbar-toggler .icon-bar+.icon-bar {
-  margin-top: 4px;
+  margin-top: 6px;
 }
 
 .navbar-toggler {
   background: transparent !important;
-  margin-top: 10px;
+  height: 36px;
 }
 
 .navbar-toggler:hover {
@@ -53,7 +58,7 @@ li.nav-item a.nav-link:hover {
 }
 
 .navbar-toggler .icon-bar {
-  width: 22px;
+  width: 33px;
   transition: all 0.2s;
 }
 
@@ -102,4 +107,28 @@ li.nav-item a.nav-link:hover {
 
 .collapse.show .nav-item {
   font-size: 1.5rem;
+}
+
+/**
+ * Transitions
+ */
+
+.navbar {
+  transition: all 0.2s ease;
+  overflow: hidden !important;
+  background: white !important;
+}
+
+.navbar.top {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  background: transparent !important;
+}
+
+.nav-spacer {
+  height: 97px;
+}
+
+#top {
+  z-index: 1035;
 }
