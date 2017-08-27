@@ -410,3 +410,118 @@ a .article:hover {
 .partner a img.darken {
   filter: grayscale(100%) brightness(0);
 }
+
+/**
+ * Background graphic
+ */
+ .background-graphic {
+   width: 100%;
+   height: 60vh;
+   position: absolute;
+   z-index: -1;
+   top: 50px;
+ }
+
+ .background-fade {
+   position: absolute;
+   width: 100%;
+   top: 0;
+   height: 60vh;
+   z-index: -3;
+   background-image: linear-gradient(to bottom, rgba(252,215,2, 0.5), rgba(0, 0, 0, 0));
+ }
+
+ .slice-2 {
+   position: absolute;
+   width: 100%;
+   top: 0vh;
+   height: 40vh;
+   z-index: -1;
+   background: -webkit-linear-gradient(right top, rgba(0, 208, 255, 0.1) 50%, rgba(0, 208, 255, 0) 50%);
+   background: -o-linear-gradient(bottom left, rgba(0, 208, 255, 0.1) 50%, rgba(0, 208, 255, 0) 50%);
+   background: -moz-linear-gradient(bottom left, rgba(0, 208, 255, 0.1) 50%, rgba(0, 208, 255, 0) 50%);
+   background: linear-gradient(to bottom left, rgba(0, 208, 255, 0.1) 50%, rgba(0, 208, 255, 0) 50%);
+ }
+
+ .slice-1 {
+   position: absolute;
+   width: 100%;
+   top: 20vh;
+   height: 40vh;
+   z-index: -2;
+   background: -webkit-linear-gradient(-15deg, #ffffff 50%, rgba(0, 208, 255, 0.3) 50%);
+   background: -o-linear-gradient(-15deg, #ffffff 50%, rgba(0, 208, 255, 0.3) 50%);
+   background: -moz-linear-gradient(-15deg, #ffffff 50%, rgba(0, 208, 255, 0.3) 50%);
+   background: linear-gradient(-15deg, #ffffff 50%, rgba(0, 208, 255, 0.3) 50%);
+ }
+
+ .dots {
+   width: 100%;
+   height: 100%;
+   background-image: url('../img/dot.png');
+   position: absolute;
+   top: 0;
+   z-index: 0;
+ }
+
+ .slice-3 {
+   position: absolute;
+   width: 100%;
+   top: 40vh;
+   height: 20vh;
+   z-index: 1;
+   background: rgba(0, 0, 0, 0);
+   background: -webkit-linear-gradient(rgba(0, 0, 0, 0), #ffffff);
+   background: -o-linear-gradient(rgba(0, 0, 0, 0), #ffffff);
+   background: -moz-linear-gradient(rgba(0, 0, 0, 0), #ffffff);
+   background: linear-gradient(rgba(0, 0, 0, 0), #ffffff);
+ }
+
+ /**
+  * Quad
+  */
+
+.quad {
+  color: white !important;
+  padding: 4rem 2rem 3rem 2rem;
+}
+
+.cyan-tint {
+  background: rgba(0, 208, 255, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.quad-img {
+  position: absolute;
+  z-index: -2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: brightness(0.7);
+}
+
+.quad p {
+  font-size: 1.2rem;
+}
+
+#bg1 {
+  background-image: url('../img/bg1.jpg');
+}
+
+#bg2 {
+  background-image: url('../img/bg2.jpg');
+}
+
+#bg3 {
+  background-image: url('../img/bg3.jpg');
+}
+
+#bg4 {
+  background-image: url('../img/bg4.jpg');
+}
