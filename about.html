@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/footer.css">
   <link rel="stylesheet" href="./css/form.css">
+  <link rel="stylesheet" href="./fonts/font.css">
 
   <!-- fonts -->
   <link href="https://fonts.googleapis.com/css?family=Palanquin+Dark" rel="stylesheet">
@@ -19,14 +20,14 @@
 
   <!-- meta tags -->
   <meta charset="UTF-8">
-  <meta name="description" content="Learn more about YouthHack - an international organization dedicated to building student entrepreneurs.">
-  <meta name="keywords" content="about,YouthHack,Manila,Philly,Penn,entrepreneurship,youth,hack,Ongchoco,Wharton,student,college,upenn,pennsylvania,sri lanka,Philippines">
+  <meta name="description" content="Learn more about YouthHack--an international organization dedicated to building student entrepreneurs.">
+  <meta name="keywords" content="About,YouthHack,Manila,Philly,Penn,entrepreneurship,youth,hack,Ongchoco,Wharton,student,college,upenn,pennsylvania,sri lanka,Philippines">
   <meta name="author" content="Cameron Cabo">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- open graph tags -->
   <meta property="og:title" content="YouthHack" />
-  <meta property="og:description" content="Learn more about YouthHack - an international organization dedicated to building student entrepreneurs." />
+  <meta property="og:description" content="YouthHack is an international organization dedicated to building student entrepreneurs." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="http://youthhack.net" />
   <meta property="og:image" content="" />
@@ -34,7 +35,7 @@
 
 <body>
   <!-- Progress bar -->
-  <div class="progress">
+  <div class="progress" id="top">
     <div class="progress-bar" id="fluid-1" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
     <div class="progress-bar cyan" id="fluid-2" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
     <div class="progress-bar yellow" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
@@ -45,16 +46,17 @@
   </div>
 
   <!-- navbar -->
-  <nav class="navbar navbar-toggleable-md">
+  <div class="nav-spacer"></div>
+  <nav class="navbar navbar-toggleable-md top fixed-top">
     <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="icon-bar top-bar"></span>
       <span class="icon-bar middle-bar"></span>
       <span class="icon-bar bottom-bar"></span>
       <span class="sr-only" Toggle navigation></span>
     </button>
-    <a class="navbar-brand special cyan-text-hover black-text" href="./index.html">
+    <a class="navbar-brand cyan-text" href="./index.html">
       <img src="./img/logo.svg" alt="Logo">
-      Youth<span class="yellow-text-hover">Hack</span>
+      Youth<span class="yellow-text">Hack</span>
     </a>
 
     <div class="collapse navbar-collapse special" id="navbarNav">
@@ -62,7 +64,7 @@
         <li class="nav-item">
           <a class="nav-link" href="./index.html">Home</a>
         </li>
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="./about.html">About</a>
         </li>
         <li class="nav-item">
@@ -81,37 +83,72 @@
     </div>
   </nav>
 
-  <!-- hero -->
-  <div class="background-image parallax" id="">
-    <div class="gradient">
-      <div class="overlay">
-        <div class="container hero-min-height">
-          <div class="space-2"></div>
-          <div class="space-4"></div>
-          <div class="row">
-            <div class="col-12 col-md-7">
-              <h1 class="special white-text marg-bot-2 tight">
-                We build entrepreneurial culture
-              </h1>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12 col-md-6">
-              <h3 class="white-text">
-                Throughout our history of dedicated involvement, we've aimed to make students better at thinking creatively about problems and forging meaningful solutions.
-              </h3>
-            </div>
-          </div>
-          <div class="space-4"></div>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="space-2"></div>
+        <h1 class="special marg-bot-1">
+          YouthHack is a for-purpose organization started in 2014 to help students learn more about technology, startups, and entrepreneurship.
+        </h1>
+        <p>
+          Through a variety of educational events, workshops and programs, YouthHack has worked with  hundreds of students in the Philippines, Malaysia, Thailand, Korea, Singapore, Hong Kong, Sri Lanka and the US over the past few years. We run startup challenges, code weekends, student incubators, coding bootcamps and more.
+        </p>
+        <p>
+          We hope to continue building the startup ecosystem across the globe by bringing together the bright young minds of tomorrow and providing them with the network, resources and mentors to help them turn their ideas into reality.
+        </p>
+        <p>
+          Interested? Read our <a class="cyan-text" href="https://medium.com/youthhack-stories/an-open-letter-to-the-friends-of-youthhack-59c3aa1f39c4" target="_blank">Open Letter to the Friends of YouthHack on How We Started.</a>
+        </p>
+        <div class="space-2"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 col-md-6 pad-2">
+        <h2>
+          We Invest in our community
+        </h2>
+        <p>
+          We believe in solving for our community. In every decision we make, we ask ourselves, how is this going to help our community of student entrepreneurs?
+        </p>
+      </div>
+      <div class="col-12 col-md-6 pad-2">
+        <h2>
+          We combine education with action
+        </h2>
+        <p>
+          We believe in equipping students with skills relevant to the 21st century while also providing them with opportunities to put these skills into practice.
+        </p>
+      </div>
+      <div class="col-12 col-md-6 pad-2">
+        <h2>
+          We are dreamers &amp; doers
+        </h2>
+        <p>
+          No idea is too crazy for us to turn into reality. We believe that we’re never too young to make a difference.
+        </p>
+      </div>
+      <div class="col-12 col-md-6 pad-2">
+        <h2>
+          We focus on impact
+        </h2>
+        <p>
+          ‘How can we use our programs and skills to make an impact in our communities?’ is a question we ask ourselves every single day
+        </p>
       </div>
     </div>
   </div>
 
   <div class="container">
-    <div class="space-2"></div>
-    <h3>About</h3>
-    <div class="space-2"></div>
+    <div class="row">
+      <div class="col-12">
+        <h1>
+          Brief history of YouthHack
+        </h1>
+      </div>
+    </div>
   </div>
 
   <!-- footer -->
@@ -143,13 +180,20 @@
     <div class="row marg-bot-1">
       <!-- text -->
       <div class="col-12 col-md-5 marg-bot-1">
-        <h1 class="marg-bot-1 special cyan-text-hover">Youth<span class="yellow-text-hover">Hack</span></h1>
+        <h1 class="marg-bot-1 cyan-text-hover">
+          <img src="./img/logo.svg">
+          Youth<span class="yellow-text-hover">Hack</span>
+        </h1>
         <p>
           YouthHack &copy; 2017. All rights reserved.<br> Website by <a href="http://cameroncabo.com" class="white-text bold no-decoration cyan-text-hover">Cameron Cabo</a>.
         </p>
 
         <p>
           Made with <span class="cyan-text-hover">&hearts;</span> in Philly, Manila, Sri Lanka, and around the world.
+        </p>
+
+        <p class="smaller">
+          Icons made by <a href="https://www.flaticon.com/authors/zlatko-najdenovski" title="Zlatko Najdenovski" class="white-text bold no-decoration cyan-text-hover">Zlatko Najdenovski</a> and <a href="http://www.freepik.com" title="Freepik" class="white-text bold no-decoration cyan-text-hover">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" class="white-text bold no-decoration cyan-text-hover">www.flaticon.com</a>, licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank" class="white-text bold no-decoration cyan-text-hover">CC 3.0 BY.</a>
         </p>
       </div>
       <!-- footer navigation -->
@@ -159,7 +203,7 @@
             <a href="./index.html" class="white-text no-decoration cyan-text-hover">Home</a>
           </li>
           <li>
-            <a href="./about.html" class="white-text no-decoration yellow-text-hover">About</a>
+            <a href="./about.html" class="white-text no-decoration cyan-text-hover">About</a>
           </li>
           <li>
             <a href="./ventures.html" class="white-text no-decoration cyan-text-hover">Ventures</a>
@@ -185,6 +229,11 @@
   <script src="js/smoothScroll.js"></script>
   <script src="js/smoothScrollInit.js"></script>
   <script src="js/smoothProgress.js"></script>
+  <script src="js/formspree.js"></script>
+  <script src="js/label.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.autosize/3.0.20/autosize.min.js"></script>
+  <script src="js/autosizeInit.js"></script>
+  <script src="js/scroll.js"></script>
 </body>
 
 </html>

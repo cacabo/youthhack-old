@@ -196,6 +196,14 @@ a.cyan-text,
   text-align: center;
 }
 
+/**
+ * Random
+ */
+
+.pad-sides {
+  padding: 0 5%;
+}
+
 #stats {
   padding-top: 3rem;
   padding-bottom: 3rem;
