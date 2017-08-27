@@ -428,7 +428,7 @@ a .article:hover {
    top: 0;
    height: 60vh;
    z-index: -3;
-   background-image: linear-gradient(to bottom, rgba(252,215,2, 0.5), rgba(0, 0, 0, 0));
+   background-image: linear-gradient(to bottom, rgba(0, 208, 255, 0.4), rgba(0, 0, 0, 0));
  }
 
  .slice-2 {
@@ -437,17 +437,17 @@ a .article:hover {
    top: 0vh;
    height: 40vh;
    z-index: -1;
-   background: -webkit-linear-gradient(right top, rgba(0, 208, 255, 0.1) 50%, rgba(0, 208, 255, 0) 50%);
-   background: -o-linear-gradient(bottom left, rgba(0, 208, 255, 0.1) 50%, rgba(0, 208, 255, 0) 50%);
-   background: -moz-linear-gradient(bottom left, rgba(0, 208, 255, 0.1) 50%, rgba(0, 208, 255, 0) 50%);
-   background: linear-gradient(to bottom left, rgba(0, 208, 255, 0.1) 50%, rgba(0, 208, 255, 0) 50%);
+   background: -webkit-linear-gradient(right top, rgba(0, 208, 255, 0.2) 50%, rgba(0, 208, 255, 0) 50%);
+   background: -o-linear-gradient(bottom left, rgba(0, 208, 255, 0.2) 50%, rgba(0, 208, 255, 0) 50%);
+   background: -moz-linear-gradient(bottom left, rgba(0, 208, 255, 0.2) 50%, rgba(0, 208, 255, 0) 50%);
+   background: linear-gradient(to bottom left, rgba(0, 208, 255, 0.2) 50%, rgba(0, 208, 255, 0) 50%);
  }
 
  .slice-1 {
    position: absolute;
    width: 100%;
-   top: 20vh;
-   height: 40vh;
+   top: 0vh;
+   height: 60vh;
    z-index: -2;
    background: -webkit-linear-gradient(-15deg, #ffffff 50%, rgba(0, 208, 255, 0.3) 50%);
    background: -o-linear-gradient(-15deg, #ffffff 50%, rgba(0, 208, 255, 0.3) 50%);
@@ -475,6 +475,19 @@ a .article:hover {
    background: -o-linear-gradient(rgba(0, 0, 0, 0), #ffffff);
    background: -moz-linear-gradient(rgba(0, 0, 0, 0), #ffffff);
    background: linear-gradient(rgba(0, 0, 0, 0), #ffffff);
+ }
+
+ .slice-4 {
+   position: absolute;
+   width: 100%;
+   top: 0vh;
+   height: 60vh;
+   background: rgba(252, 215, 2, 0.5);
+   z-index: 2;
+   background: -webkit-linear-gradient(185deg, rgba(252, 215, 2, 0.3) 50%, rgba(0, 0, 0, 0) 50%);
+   background: -o-linear-gradient(185deg, rgba(252, 215, 2, 0.3) 50%, rgba(0, 0, 0, 0) 50%);
+   background: -moz-linear-gradient(185deg, rgba(252, 215, 2, 0.3) 50%, rgba(0, 0, 0, 0) 50%);
+   background: linear-gradient(185deg, rgba(252, 215, 2, 0.3) 50%, rgba(0, 0, 0, 0) 50%);
  }
 
  /**
@@ -524,4 +537,36 @@ a .article:hover {
 
 #bg4 {
   background-image: url('../img/bg4.jpg');
+}
+
+/**
+ * Time
+ */
+.year {
+  display: flex;
+}
+
+.year .date {
+  font-size: 3rem;
+}
+
+.year h1 {
+  width: 136px;
+  display: block;
+}
+
+.timeline-spacer {
+  display: inline-block;
+  margin-left: 228px;
+  width: 0.5rem;
+  height: 2rem;
+  background: #00d0ff;
+  transform: translateY(3.5px);
+}
+
+.year-content {
+  padding: 1rem;
+  background: white;
+  flex: 1;
+  box-shadow: -2px 2px 0px rgba(0, 0, 0, 0.15);
 }

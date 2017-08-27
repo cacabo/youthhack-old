@@ -53,14 +53,15 @@ label#messageLabel.hasVal {
   color: black;
 }
 
-#submit {
+.btn.special {
+  color: black;
   background: transparent;
   border: 2px solid black;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
 
-#submit:hover {
+.btn.special:hover {
   background: black;
   color: white;
 }
