@@ -94,6 +94,22 @@ a.cyan-text,
   color: white;
 }
 
+#video {
+  margin-top: 20vh;
+}
+
+.white-video-border {
+  background: white;
+  padding: 0.5rem 0.5rem 0rem 0.5rem;
+  border-radius: 0.25rem;
+  display: table;
+  width: 100%;
+}
+
+.white-video-border .btn {
+  display: table-cell;
+}
+
 
 /* images */
 
@@ -102,7 +118,12 @@ a.cyan-text,
 }
 
 .hero-min-height {
-  min-height: 70vh;
+  min-height: 50vh;
+}
+
+.hero-text p {
+  font-size: 2rem;
+  line-height: 1.15;
 }
 
 .gradient {
