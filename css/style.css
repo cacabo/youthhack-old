@@ -431,9 +431,12 @@ a .article:hover {
   background-image: linear-gradient(to bottom, rgba(0, 208, 255, 0.4), rgba(0, 0, 0, 0));
 }
 
-.slice-2 {
+.slice {
   position: absolute;
   width: 100%;
+}
+
+.slice-2 {
   top: 0vh;
   height: 40vh;
   z-index: -1;
@@ -444,8 +447,6 @@ a .article:hover {
 }
 
 .slice-1 {
-  position: absolute;
-  width: 100%;
   top: 0vh;
   height: 60vh;
   z-index: -2;
@@ -470,8 +471,6 @@ a .article:hover {
 }
 
 .slice-3 {
-  position: absolute;
-  width: 100%;
   top: 40vh;
   height: 20vh;
   z-index: 1;
@@ -483,8 +482,6 @@ a .article:hover {
 }
 
 .slice-4 {
-  position: absolute;
-  width: 100%;
   top: 0vh;
   height: 60vh;
   background: rgba(252, 215, 2, 0.5);
@@ -496,8 +493,6 @@ a .article:hover {
 }
 
 .slice-5 {
-  position: absolute;
-  width: 100%;
   height: 36rem;
   z-index: -2;
   background: -webkit-linear-gradient(-50deg, #ffffff 30%, rgba(0, 208, 255, 0.1) 30%);
@@ -507,14 +502,21 @@ a .article:hover {
 }
 
 .slice-6 {
-  position: absolute;
-  width: 100%;
   height: 36rem;
   z-index: -1;
   background: -webkit-linear-gradient(-60deg, transparent 50%, rgba(0, 208, 255, 0.2) 30%);
   background: -o-linear-gradient(-60deg, transparent 50%, rgba(0, 208, 255, 0.2) 30%);
   background: -moz-linear-gradient(-60deg, transparent 50%, rgba(0, 208, 255, 0.2) 30%);
   background: linear-gradient(-60deg, transparent 50%, rgba(0, 208, 255, 0.2) 30%);
+}
+
+.slice-7 {
+  height: 36rem;
+  z-index: -1;
+  background: -webkit-linear-gradient(-30deg, rgba(252, 215, 2, 0.2) 50%, transparent 30%);
+  background: -o-linear-gradient(-30deg, rgba(252, 215, 2, 0.2) 50%, transparent 30%);
+  background: -moz-linear-gradient(-30deg, rgba(252, 215, 2, 0.2) 50%, transparent 30%);
+  background: linear-gradient(-30deg, rgba(252, 215, 2, 0.2) 50%, transparent 30%);
 }
 
  /**
