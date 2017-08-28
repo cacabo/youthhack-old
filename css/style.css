@@ -126,6 +126,10 @@ p.header {
   line-height: 1.15;
 }
 
+p.bigger {
+  font-size: 1.25rem;
+}
+
 .gradient {
   animation-duration: 3s;
   animation-name: changeGradient;
