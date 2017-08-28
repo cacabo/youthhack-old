@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/footer.css">
   <link rel="stylesheet" href="./css/form.css">
+  <link rel="stylesheet" href="./fonts/font.css">
 
   <!-- fonts -->
   <link href="https://fonts.googleapis.com/css?family=Palanquin+Dark" rel="stylesheet">
@@ -19,14 +20,14 @@
 
   <!-- meta tags -->
   <meta charset="UTF-8">
-  <meta name="description" content="Keep up to date with YouthHack via our blog.">
-  <meta name="keywords" content="ventures,accelerator,YouthHack,Manila,Philly,Penn,entrepreneurship,youth,hack,Ongchoco,Wharton,student,college,upenn,pennsylvania,sri lanka,Philippines">
+  <meta name="description" content="Learn how to get involved in YouthHack--an international organization dedicated to building student entrepreneurs.">
+  <meta name="keywords" content="get,involved,impact,YouthHack,Manila,Philly,Penn,entrepreneurship,youth,hack,Ongchoco,Wharton,student,college,upenn,pennsylvania,sri lanka,Philippines">
   <meta name="author" content="Cameron Cabo">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- open graph tags -->
   <meta property="og:title" content="YouthHack" />
-  <meta property="og:description" content="Keep up to date with YouthHack via our blog." />
+  <meta property="og:description" content="YouthHack is an international organization dedicated to building student entrepreneurs." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="http://youthhack.net" />
   <meta property="og:image" content="" />
@@ -34,7 +35,7 @@
 
 <body>
   <!-- Progress bar -->
-  <div class="progress">
+  <div class="progress" id="top">
     <div class="progress-bar" id="fluid-1" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
     <div class="progress-bar cyan" id="fluid-2" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
     <div class="progress-bar yellow" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
@@ -45,16 +46,17 @@
   </div>
 
   <!-- navbar -->
-  <nav class="navbar navbar-toggleable-md">
+  <div class="nav-spacer"></div>
+  <nav class="navbar navbar-toggleable-md top fixed-top">
     <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="icon-bar top-bar"></span>
       <span class="icon-bar middle-bar"></span>
       <span class="icon-bar bottom-bar"></span>
       <span class="sr-only" Toggle navigation></span>
     </button>
-    <a class="navbar-brand special cyan-text-hover black-text" href="./index.html">
+    <a class="navbar-brand cyan-text" href="./index.html">
       <img src="./img/logo.svg" alt="Logo">
-      Youth<span class="yellow-text-hover">Hack</span>
+      Youth<span class="yellow-text">Hack</span>
     </a>
 
     <div class="collapse navbar-collapse special" id="navbarNav">
@@ -72,46 +74,163 @@
           <a class="nav-link" href="./academy.html">Academy</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./blog.html">Blog</a>
-        </li>
-        <li class="nav-item active">
           <a class="nav-link" href="./getinvolved.html">Get Involved</a>
         </li>
       </ul>
     </div>
   </nav>
 
-  <!-- hero -->
-  <div class="background-image parallax" id="">
-    <div class="gradient">
-      <div class="overlay">
-        <div class="container hero-min-height">
-          <div class="space-2"></div>
-          <div class="space-4"></div>
-          <div class="row">
-            <div class="col-12 col-md-7">
-              <h1 class="special white-text marg-bot-2 tight">
-                Words about getting involved
-              </h1>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12 col-md-6">
-              <h3 class="white-text">
-                This is a sentence about how people can Get Involved with YouthHack
-              </h3>
-            </div>
-          </div>
-          <div class="space-4"></div>
+  <div class="dots-wrapper">
+    <div class="slice-5"></div>
+    <div class="slice-6"></div>
+
+    <div class="container">
+      <div class="space-4"></div>
+
+      <div class="row">
+        <div class="col-12 col-md-10 col-lg-9">
+          <h1 class="special white pad-1 marg-bot-1">
+            Thorough, passionate involvement is what enables YouthHack to thrive
+          </h1>
+        </div>
+        <!-- close col  -->
+        <div class="col-12 col-md-9 col-lg-7">
+          <p class="white pad-1 text-muted header">
+            Anyone around the world is in a position to lend their time, effort, and ideas to building up YouthHack and entrepreneurship on the whole.
+          </p>
+        </div>
+        <!-- close col -->
+      </div>
+      <!-- close row -->
+      <div class="space-2"></div>
+    </div>
+    <!-- close container -->
+  </div>
+  <!-- close wrapper -->
+
+  <div class="white">
+    <div class="container">
+      <div class="space-2"></div>
+
+      <div class="row">
+        <!-- chapter -->
+        <div class="col-12 col-md-6 method">
+          <h2 class="special">
+            Start a chapter
+          </h2>
+          <p>
+            To date, we've built full-on chapters in Philly, Manila, Singapore, and Korea. Chapters are where driven individuals, collaborate, learn, and grow via YouthHack year-long. Interested in building a chapter of your own? <a href="" class="cyan-text">Let's see what we can come up with.</a>
+          </p>
+        </div>
+
+        <!-- core team -->
+        <div class="col-12 col-md-6 method">
+          <h2 class="special">
+            Join the Core Team
+          </h2>
+          <p>
+            Our Core Team is what gives YouthHack the structure to grow and influence. It's a diverse mix of entrepreneurs, academics, marketing-enthusiasts, consultants, and developers. Each member has a stake in the direction YouthHack and its chapters take day in and day out. <a href="" class="cyan-text">Let's get started.</a>
+          </p>
+        </div>
+
+        <!-- mentor -->
+        <div class="col-12 col-md-6 method">
+          <h2 class="special">
+            Become a mentor
+          </h2>
+          <p>
+            Mentors serve a crucial role in giving direction to aspiring entrepreneurs and product builders. Across all industries from sales, to venture capital, to software development, our mentors present a major value add to each of our programs. <a href="" class="cyan-text">Interested in sharing your knowledge?</a>
+          </p>
+        </div>
+
+        <!-- sponsor partner -->
+        <div class="col-12 col-md-6 method">
+          <h2 class="special">
+            Become a sponsor or partner
+          </h2>
+          <p>
+            Sponsors contribute invaluable funding to enable our Core Team to operate to its full potential and for YouthHack to host events globally. Partners serve a similar role in lending other resources for our programs and events to push the boundaries of entrepreneurial creativity. <a href="" class="cyan-text">Want to help YouthHack grow?</a>
+          </p>
         </div>
       </div>
+      <!-- close row -->
     </div>
+    <!-- close container -->
+  </div>
+  <!-- close white -->
+
+  <div class="space-2"></div>
+
+  <!-- contact -->
+  <div class="gradient-2 background-image parallax" id="contact">
+    <div class="overlay">
+      <div class="container">
+        <div class="space-2"></div>
+        <div class="space-2 hidden-sm-down"></div>
+        <div class="row">
+          <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+            <div class="white pad-2">
+              <h2 class="special marg-bot-2">Contact us</h2>
+              <p>
+                Have some other idea for how you can get involved or help out YouthHack? Want to get in touch with someone on our Core Team? Shoot us a message and we'll be prompt in our response.
+              </p>
+              <div id="errors"></div>
+              <form id="contactForm" action="https://formspree.io/hello@youthhack.net" method="post">
+                <div class="row">
+                  <div class="col-6">
+                    <input type="text" name="Name" class="form-control" id="inputName" required>
+                    <label for="inputName">Name*</label>
+                  </div>
+
+                  <div class="col-6">
+                    <input type="email" name="_replyto" class="form-control" id="inputEmail" required>
+                    <label for="inputEmail">Email*</label>
+                  </div>
+                </div>
+                <!-- closing row -->
+
+                <div class="row">
+                  <div class="col-6">
+                    <input type="text" name="Organization" class="form-control" id="inputOrganization">
+                    <label for="inputOrganization">Organization</label>
+                  </div>
+                  <div class="col-6">
+                    <input type="text" name="Location" class="form-control" id="inputLocation">
+                    <label for="inputLocation">Location</label>
+                  </div>
+                </div>
+                <!-- closing row -->
+
+                <input type="text" name="_subject" class="form-control" id="inputSubject" required>
+                <label for="inputSubject">Subject*</label>
+                <div class="empty-space"></div>
+                <label id="messageLabel" for="inputMessage">Message*</label>
+                <textarea rows="1" type="message" name="Message" class="form-control" id="inputMessage" id="ta" required></textarea>
+
+                <input type="text" name="_gotcha" style="display:none">
+                <div class="space-2"></div>
+                <button type="submit" id="submit" value="Send" class="btn special">Submit</button>
+              </form>
+              <!-- close form -->
+            </div>
+            <!-- close white -->
+          </div>
+          <!-- close col -->
+        </div>
+        <!-- close row -->
+      </div>
+      <!-- close container -->
+      <div class="space-4"></div>
+    </div>
+    <!-- close overlay -->
   </div>
 
-  <div class="container">
-    <div class="space-2"></div>
-    <h3>Get involved</h3>
-    <div class="space-2"></div>
+  <div class="center full-width absolute half-up">
+    <a data-scroll href="#top" class="no-decoration inline">
+      <div class="circle white shade-3 hover">
+        <i class="fa fa-arrow-up black-text fa-2x"></i>
+      </div>
+    </a>
   </div>
 
   <!-- footer -->
@@ -143,13 +262,20 @@
     <div class="row marg-bot-1">
       <!-- text -->
       <div class="col-12 col-md-5 marg-bot-1">
-        <h1 class="marg-bot-1 special cyan-text-hover">Youth<span class="yellow-text-hover">Hack</span></h1>
+        <h1 class="marg-bot-1 cyan-text-hover">
+          <img src="./img/logo.svg">
+          Youth<span class="yellow-text-hover">Hack</span>
+        </h1>
         <p>
           YouthHack &copy; 2017. All rights reserved.<br> Website by <a href="http://cameroncabo.com" class="white-text bold no-decoration cyan-text-hover">Cameron Cabo</a>.
         </p>
 
         <p>
           Made with <span class="cyan-text-hover">&hearts;</span> in Philly, Manila, Sri Lanka, Malaysia, Thailand, Calabarzon, and around the world.
+        </p>
+
+        <p class="smaller">
+          Icons made by <a href="https://www.flaticon.com/authors/zlatko-najdenovski" title="Zlatko Najdenovski" class="white-text bold no-decoration cyan-text-hover">Zlatko Najdenovski</a> and <a href="http://www.freepik.com" title="Freepik" class="white-text bold no-decoration cyan-text-hover">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" class="white-text bold no-decoration cyan-text-hover">www.flaticon.com</a>, licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank" class="white-text bold no-decoration cyan-text-hover">CC 3.0 BY.</a>
         </p>
       </div>
       <!-- footer navigation -->
@@ -168,10 +294,7 @@
             <a href="./academy.html" class="white-text no-decoration cyan-text-hover">Academy</a>
           </li>
           <li>
-            <a href="./blog.html" class="white-text no-decoration cyan-text-hover">Blog</a>
-          </li>
-          <li>
-            <a href="./getinvolved.html" class="white-text no-decoration yellow-text-hover">Get Involved</a>
+            <a href="./getinvolved.html" class="white-text no-decoration cyan-text-hover">Get Involved</a>
           </li>
         </ul>
       </div>
@@ -185,6 +308,11 @@
   <script src="js/smoothScroll.js"></script>
   <script src="js/smoothScrollInit.js"></script>
   <script src="js/smoothProgress.js"></script>
+  <script src="js/formspree.js"></script>
+  <script src="js/label.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.autosize/3.0.20/autosize.min.js"></script>
+  <script src="js/autosizeInit.js"></script>
+  <script src="js/scroll.js"></script>
 </body>
 
 </html>
