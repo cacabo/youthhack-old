@@ -332,6 +332,10 @@ a .article:hover {
 ** Branches
 */
 
+.division {
+  text-align: center !important;
+}
+
 .branch-img {
   margin-bottom: 1rem;
   margin-right: 35%;

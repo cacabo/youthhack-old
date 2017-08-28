@@ -17,7 +17,7 @@ Website for YouthHack, currently under development.
 - [x] Add logo to navbar
 - [x] About page
 - [ ] Ventures page
-- [ ] Academy page
+- [ ] Startup School page
 - [ ] StartupChallenge page
 - [ ] Get Involved page
 - [ ] Meta tag image content

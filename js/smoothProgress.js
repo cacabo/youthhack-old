@@ -2,7 +2,7 @@ $f1 = $("#fluid-1");
 $f2 = $("#fluid-2");
 $f3 = $("#fluid-3");
 
-const interval = 1000;
+const interval = 2000;
 
 setInterval(function() {
   let r1 = Math.floor(Math.random() * 70);
