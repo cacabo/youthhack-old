@@ -7,8 +7,6 @@ Website for YouthHack, currently under development.
 * Javascript / jQuery
 
 ### Todo
-- [ ] Numbers increase upon scrolling over them
-- [ ] Auto-scrolling partners (fine for now)
 - [x] Better navbar styling
 - [x] More JS animations
 - [x] More animations / use of color throughout
@@ -16,13 +14,15 @@ Website for YouthHack, currently under development.
 - [x] Decide on colors
 - [x] Add logo to navbar
 - [x] About page
+- [ ] Numbers increase upon scrolling over them
 - [ ] Ventures page
 - [ ] Startup School page
-- [ ] StartupChallenge page
-- [ ] Get Involved page
+- [ ] Startup Challenge page
+- [x] Get involved page
 - [ ] Meta tag image content
-- [ ] Twitter meta tags?
-- [ ] Favicon
+- [ ] Twitter meta tags
+- [ ] Favicon (@david)
+- [ ] Google Analytics
 - [x] Logos
   - [x] Startup challenge
   - [x] Accelerator
