@@ -665,3 +665,26 @@ a .article:hover {
 .margin-left-1 {
   margin-left: 1rem;
 }
+
+/*
+** Core team
+*/
+.person.card {
+  border-radius: 0px;
+  margin-bottom: 2rem;
+}
+
+.person.card a {
+  font-size: 0.75rem;
+}
+
+.person.card .card-img-top {
+  width: 100%;
+  height: 28vh;
+  overflow: hidden !important;
+  border-radius: 0px;
+}
+
+.person.card p {
+  margin-bottom: 0.25rem;
+}
