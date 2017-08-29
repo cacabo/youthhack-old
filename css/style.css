@@ -29,6 +29,26 @@ h1.bigger {
   font-size: 3.5rem;
 }
 
+@media (max-width: 848px) {
+  h1.bigger {
+    font-size: 3rem;
+  }
+
+  p.header {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-device-width: 848px) {
+  h1.bigger {
+    font-size: 3rem;
+  }
+
+  p.header {
+    font-size: 1.75rem;
+  }
+}
+
 .code, footer h1, .navbar-brand {
   font-family: 'code_boldregular', serif;
 }
@@ -417,6 +437,16 @@ a .article:hover {
 
 .partner a img.darken {
   filter: grayscale(100%) brightness(0);
+}
+
+@media (max-width: 848px) {
+  .partner a img {
+    height: 2.5rem;
+  }
+
+  .partner a img.short {
+    height: 2.25rem;
+  }
 }
 
 /**
