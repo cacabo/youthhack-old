@@ -1,4 +1,17 @@
 /* Fonts and colors */
+.number {
+  position: absolute;
+  font-size: 16rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.15);
+  top: -7rem;
+  left: 0rem;
+  z-index: -2;
+}
+
+.step:hover .number {
+  color: rgba(0, 208, 255, 0.5);
+}
 
 p.smaller {
   font-size: 0.8rem;
@@ -6,7 +19,7 @@ p.smaller {
 
 .cyan-underline {
   text-decoration: underline;
-  color: #00d0ff;
+  color: ##00d0ff;
 }
 
 .gray-diag {
@@ -647,4 +660,8 @@ a .article:hover {
 
 .method p {
   margin-bottom: 0rem;
+}
+
+.margin-left-1 {
+  margin-left: 1rem;
 }
