@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/footer.css">
   <link rel="stylesheet" href="./css/form.css">
+  <link rel="stylesheet" href="./fonts/font.css">
 
   <!-- fonts -->
   <link href="https://fonts.googleapis.com/css?family=Palanquin+Dark" rel="stylesheet">
@@ -19,14 +20,14 @@
 
   <!-- meta tags -->
   <meta charset="UTF-8">
-  <meta name="description" content="Keep up to date with YouthHack via our blog.">
-  <meta name="keywords" content="ventures,accelerator,YouthHack,Manila,Philly,Penn,entrepreneurship,youth,hack,Ongchoco,Wharton,student,college,upenn,pennsylvania,sri lanka,Philippines">
+  <meta name="description" content="Learn more about YouthHack--an international organization dedicated to building student entrepreneurs.">
+  <meta name="keywords" content="About,YouthHack,Manila,Philly,Penn,entrepreneurship,youth,hack,Ongchoco,Wharton,student,college,upenn,pennsylvania,sri lanka,Philippines">
   <meta name="author" content="Cameron Cabo">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- open graph tags -->
   <meta property="og:title" content="YouthHack" />
-  <meta property="og:description" content="Keep up to date with YouthHack via our blog." />
+  <meta property="og:description" content="YouthHack is an international organization dedicated to building student entrepreneurs." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="http://youthhack.net" />
   <meta property="og:image" content="" />
@@ -34,7 +35,7 @@
 
 <body>
   <!-- Progress bar -->
-  <div class="progress">
+  <div class="progress" id="top">
     <div class="progress-bar" id="fluid-1" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
     <div class="progress-bar cyan" id="fluid-2" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
     <div class="progress-bar yellow" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
@@ -45,16 +46,17 @@
   </div>
 
   <!-- navbar -->
-  <nav class="navbar navbar-toggleable-md">
+  <div class="nav-spacer"></div>
+  <nav class="navbar navbar-toggleable-md top fixed-top">
     <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="icon-bar top-bar"></span>
       <span class="icon-bar middle-bar"></span>
       <span class="icon-bar bottom-bar"></span>
       <span class="sr-only" Toggle navigation></span>
     </button>
-    <a class="navbar-brand special cyan-text-hover black-text" href="./index.html">
+    <a class="navbar-brand cyan-text" href="./index.html">
       <img src="./img/logo.svg" alt="Logo">
-      Youth<span class="yellow-text-hover">Hack</span>
+      Youth<span class="yellow-text">Hack</span>
     </a>
 
     <div class="collapse navbar-collapse special" id="navbarNav">
@@ -65,14 +67,14 @@
         <li class="nav-item">
           <a class="nav-link" href="./about.html">About</a>
         </li>
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="./ventures.html">Ventures</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="./startupschool.html">Startup School</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./blog.html" target="_blank">Blog</a>
+          <a class="nav-link" href="https://medium.com/youthhack-stories" target="_blank">Blog</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="./getinvolved.html">Get Involved</a>
@@ -81,38 +83,81 @@
     </div>
   </nav>
 
-  <!-- hero -->
-  <div class="background-image parallax" id="">
-    <div class="gradient">
-      <div class="overlay">
-        <div class="container hero-min-height">
-          <div class="space-2"></div>
-          <div class="space-4"></div>
-          <div class="row">
-            <div class="col-12 col-md-7">
-              <h1 class="special white-text marg-bot-2 tight">
-                Words about ventures
-              </h1>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12 col-md-6">
-              <h3 class="white-text">
-                This is a sentence about ventures
-              </h3>
-            </div>
-          </div>
-          <div class="space-4"></div>
+  <div class="background-graphic">
+    <div class="background-fade"></div>
+    <div class="slice slice-1"></div>
+    <div class="slice slice-2"></div>
+    <div class="dots"></div>
+    <div class="slice slice-3"></div>
+    <div class="slice slice-4"></div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="space-4"></div>
+        <div class="col-12 col-md-10 col-lg-9">
+          <h1 class="special marg-bot-1 white pad-1 marg-top-2">
+            Our ventures program is an incubator for aspiring student founders
+          </h1>
         </div>
+
+        <div class="col-12 col-lg-10">
+          <p class="white pad-1">
+            We focus on providing the community, mentorship, and education that students need to develop their ideas while in school.
+          </p>
+        </div>
+        <div class="space-4"></div>
       </div>
     </div>
   </div>
 
-  <div class="container">
-    <div class="space-2"></div>
-    <h3>Ventures</h3>
-    <div class="space-2"></div>
+  <div class="container-fluid pad-sides">
+    <div class="row">
+      <div class="col-12 col-lg-4">
+        <div class="step pad-1 white">
+          <h1 class="special">
+            1. Ideate
+          </h1>
+          <p>
+
+          </p>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-4">
+        <div class="step pad-1 white">
+          <h1 class="special">
+            2. Build
+          </h1>
+          <p>
+
+          </p>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-4">
+        <div class="step pad-1 white">
+          <h1 class="special">
+            3. Scale
+          </h1>
+          <p>
+
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="space-4"></div>
   </div>
+
+  <div class="center full-width absolute half-up">
+    <a data-scroll href="#top" class="no-decoration inline">
+      <div class="circle white shade-3 hover">
+        <i class="fa fa-arrow-up black-text fa-2x"></i>
+      </div>
+    </a>
+  </div>
+
 
   <!-- footer -->
   <footer class="block black white-text pad-2">
@@ -143,13 +188,20 @@
     <div class="row marg-bot-1">
       <!-- text -->
       <div class="col-12 col-md-5 marg-bot-1">
-        <h1 class="marg-bot-1 special cyan-text-hover">Youth<span class="yellow-text-hover">Hack</span></h1>
+        <h1 class="marg-bot-1 cyan-text-hover">
+          <img src="./img/logo.svg">
+          Youth<span class="yellow-text-hover">Hack</span>
+        </h1>
         <p>
           YouthHack &copy; 2017. All rights reserved.<br> Website by <a href="http://cameroncabo.com" class="white-text bold no-decoration cyan-text-hover">Cameron Cabo</a>.
         </p>
 
         <p>
           Made with <span class="cyan-text-hover">&hearts;</span> in Philly, Manila, Sri Lanka, Malaysia, Thailand, Calabarzon, and around the world.
+        </p>
+
+        <p class="smaller">
+          Icons made by <a href="https://www.flaticon.com/authors/zlatko-najdenovski" title="Zlatko Najdenovski" class="white-text bold no-decoration cyan-text-hover">Zlatko Najdenovski</a> and <a href="http://www.freepik.com" title="Freepik" class="white-text bold no-decoration cyan-text-hover">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" class="white-text bold no-decoration cyan-text-hover">www.flaticon.com</a>, licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank" class="white-text bold no-decoration cyan-text-hover">CC 3.0 BY.</a>
         </p>
       </div>
       <!-- footer navigation -->
@@ -162,13 +214,13 @@
             <a href="./about.html" class="white-text no-decoration cyan-text-hover">About</a>
           </li>
           <li>
-            <a href="./ventures.html" class="white-text no-decoration yellow-text-hover">Ventures</a>
+            <a href="./ventures.html" class="white-text no-decoration cyan-text-hover">Ventures</a>
           </li>
           <li>
             <a href="./startupschool.html" class="white-text no-decoration cyan-text-hover">Startup School</a>
           </li>
           <li>
-            <a href="./blog.html" class="white-text no-decoration cyan-text-hover" target="_blank">Blog</a>
+            <a href="https://medium.com/youthhack-stories" class="white-text no-decoration cyan-text-hover" target="_blank">Blog</a>
           </li>
           <li>
             <a href="./getinvolved.html" class="white-text no-decoration cyan-text-hover">Get Involved</a>
@@ -185,6 +237,11 @@
   <script src="js/smoothScroll.js"></script>
   <script src="js/smoothScrollInit.js"></script>
   <script src="js/smoothProgress.js"></script>
+  <script src="js/formspree.js"></script>
+  <script src="js/label.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.autosize/3.0.20/autosize.min.js"></script>
+  <script src="js/autosizeInit.js"></script>
+  <script src="js/scroll.js"></script>
 </body>
 
 </html>

@@ -27,3 +27,8 @@ Website for YouthHack, currently under development.
   - [x] Startup challenge
   - [x] Accelerator
   - [x] Startup school
+- [ ] Get blurbs from Jeff and Katherine
+  - [ ] Implement
+- [ ] Get Core Team info from David
+  - [ ] Implement
+- [ ] Link from contact in Get Involved to Core Team info
