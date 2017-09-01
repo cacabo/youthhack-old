@@ -526,10 +526,10 @@ a .article:hover {
   height: 20vh;
   z-index: 1;
   background: rgba(0, 0, 0, 0);
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0), #ffffff);
-  background: -o-linear-gradient(rgba(0, 0, 0, 0), #ffffff);
-  background: -moz-linear-gradient(rgba(0, 0, 0, 0), #ffffff);
-  background: linear-gradient(rgba(0, 0, 0, 0), #ffffff);
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0), #ffffff);
+  background: -o-linear-gradient(rgba(255, 255, 255, 0), #ffffff);
+  background: -moz-linear-gradient(rgba(255, 255, 255, 0), #ffffff);
+  background: linear-gradient(rgba(255, 255, 255, 0), #ffffff);
 }
 
 .slice-4 {
