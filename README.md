@@ -1,5 +1,5 @@
 # YouthHack
-Website for YouthHack, currently under development.
+Shiny new website for YouthHack: a global community for student entrepreneurs.
 
 ### Stack used
 * HTML
@@ -15,20 +15,20 @@ Website for YouthHack, currently under development.
 - [x] Add logo to navbar
 - [x] About page
 - [ ] Numbers increase upon scrolling over them
-- [ ] Ventures page
-- [ ] Startup School page
+- [x] Ventures page
+- [x] Startup School page
 - [ ] Startup Challenge page
 - [x] Get involved page
-- [ ] Meta tag image content
-- [ ] Twitter meta tags
-- [ ] Favicon (@david)
-- [ ] Google Analytics
+- [x] Meta tag image content
+- [x] Twitter meta tags
+- [x] Favicon
+- [x] Google Analytics
 - [x] Logos
   - [x] Startup challenge
   - [x] Accelerator
   - [x] Startup school
-- [ ] Get blurbs from Jeff and Katherine
-  - [ ] Implement
-- [ ] Get Core Team info from David
-  - [ ] Implement
-- [ ] Link from contact in Get Involved to Core Team info
+- [x] Get blurbs from Jeff and Katherine
+  - [x] Implement
+- [x] Get Core Team info from David
+  - [x] Implement
+- [x] Link from contact in Get Involved to Core Team info

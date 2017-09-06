@@ -683,9 +683,8 @@ a .article:hover {
 }
 
 .person.card .card-img-top {
-  width: 100%;
-  height: 28vh;
-  overflow: hidden !important;
+  height: 30vh !important;
+  min-width: 100%;
   border-radius: 0px;
 }
 
